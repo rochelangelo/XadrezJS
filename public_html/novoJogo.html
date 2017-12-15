@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Xadrez GRE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+ 
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/blitzer/jquery-ui.css"/>
+  <script
+ 
+  crossorigin="anonymous"></script>
+        <style>
+            button.grande {
+                border-radius: 3px;
+                font-size: 1.5em;font-weight: bold;
+                text-align: center;
+                margin: 10px 5px;
+                padding: 10px 20px;
+                top:50%;
+                left:50%;
+            }
+            button.amarelo {
+                top:50%;
+                left:50%;
+                text-shadow: 0 -1px 0 #396715;
+                background-color: #F0E68C;
+                border: 1px solid #000;
+                border-bottom: 1px solid #000;
+                box-shadow: inset 0 1px 0 0 #000;
+            }
+
+            button.amarelo:hover {
+                opacity:.85;
+                cursor: pointer; 
+            }
+
+            button.amarelo:active {
+                border: 1px solid #00;
+                box-shadow: 0 0 10px 5px #00 inset; 
+                -webkit-box-shadow:0 0 10px 5px #00 inset ;
+                -moz-box-shadow: 0 0 10px 5px #00 inset;
+                -ms-box-shadow: 0 0 10px 5px #00 inset;
+                -o-box-shadow: 0 0 10px 5px #00 inset;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <button class="grande amarelo" onclick="window.location.replace('http://localhost:8383/XadrezLpw/index.html')">Jogar Novamente</button>
+    </body>
+</html>
